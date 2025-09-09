@@ -39,14 +39,17 @@ p{
   font-size: 14px;
   background-color: rgb(255, 0, 55);
 }
+.Shop-now{
+  cursor: pointer;
+} 
+.Shop-now:hover{
+  text-decoration: underline;
+}
 .span-example{
   color: red;
+  margin-left: 12px;
 
 }
 .span-example:hover{
   text-decoration: underline;
-}
-.Shop-now{
-  text-decoration: underline;
-  cursor: pointer;
 }
