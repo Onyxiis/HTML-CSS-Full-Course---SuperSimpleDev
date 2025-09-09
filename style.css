@@ -26,8 +26,7 @@
   }
   .JOIN{
     color: rgb(41,118,211);
-    height: 36px;
-    width: 62px;
+    padding: 9px;
     cursor: pointer;
     border-radius: 5px;
     border-style: solid;
@@ -55,5 +54,26 @@
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
 }
 .Twitter:active{
+  opacity: 0.7;
+}
+.YouTube{
+  background-color: red;
+  color: white;
+  padding: 9px;
+  border-radius: 30px;
+  border-style: solid;
+  cursor: pointer;
+  border:none;
+  font-weight: bold;
+  font-size: 15px;
+  transition: opacity 0.5s,
+  box-shadow 0.5s;
+}
+.YouTube:hover{
+  background-color: rgb(206, 0, 0);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  opacity: 0.8;
+}
+.YouTube:active{
   opacity: 0.7;
 }
