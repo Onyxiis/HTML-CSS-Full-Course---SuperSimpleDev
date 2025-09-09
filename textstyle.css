@@ -29,3 +29,24 @@ p{
   line-height: 22px;
   margin-bottom: 100px;
 }
+.Apple-text{
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-size: 14px;
+  background-color: rgb(255, 0, 55);
+}
+.span-example{
+  color: red;
+
+}
+.span-example:hover{
+  text-decoration: underline;
+}
+.Shop-now{
+  text-decoration: underline;
+  cursor: pointer;
+}
