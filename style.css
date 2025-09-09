@@ -7,6 +7,22 @@
     border-radius: 5px;
     cursor: pointer;
     margin:  8px; ;
+    transition: opacity 0.15s;
+  }
+  .SUBSCRIBE:hover{
+    background-color: rgb(128, 0, 0);
+    opacity: 0.8;
+  }
+  .SUBSCRIBE:active{
+    background-color: rgb(182, 0, 0);
+    opacity: 0.4;
+  }
+  .JOIN:hover{
+    background-color: rgb(41,118,211);
+    color: white
+  }
+  .JOIN:active{
+    opacity: 0.7;
   }
   .JOIN{
     color: rgb(41,118,211);
@@ -18,16 +34,26 @@
     border-width: 1px;
     background-color: white;
     margin: 8px;
-  }
-.Twitter{
-background-color: rgb(0, 217, 255);  
-border-radius: 30px;
-height: 36px;
-width: 80px;
-border-style: solid;
-color: white;
-cursor: pointer;
-border: none;
-font-weight: bold;
-font-size: 15px;
+    transition: background-color 0.5s, 
+    color 0.5s;
+}
+  .Twitter{
+    background-color: rgb(0, 217, 255);  
+    border-radius: 30px;
+    height: 36px;
+    width: 80px;
+    border-style: solid;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    transition: opacity 0.5s,
+    box-shadow 0.5s;
+}
+.Twitter:hover{
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+.Twitter:active{
+  opacity: 0.7;
 }
