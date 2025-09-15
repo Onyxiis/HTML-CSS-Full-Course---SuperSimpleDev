@@ -12,6 +12,7 @@ p{
 .Searchbox{
  display: block;
 }
+
 .video-creator{
   margin-bottom: 4px;
 }
@@ -34,14 +35,16 @@ font-size: 12px;
   line-height: 20px;
   margin-bottom: 12px;
 }
+.video-info-grid{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
 .creator-icon{
-  display: inline-block;
   width: 50px;
   vertical-align: top;
 
 }
 .video-info{
-  display: inline-block;
   width: 200px;
 }
 .profile-pic{
