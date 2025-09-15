@@ -6,9 +6,7 @@
 .Searchbox{
  display: block;
 }
-.video-title{
-  width: 300px;
-}
+
 .video-creator,
 .video-stats{
 color: gray;
@@ -17,4 +15,23 @@ color: gray;
   display: inline-block;
   width: 300px;
   vertical-align: top;
+  margin-right: 15px;
+}
+.video-title{
+  margin-top: 0;
+}
+.creator-icon{
+  display: inline-block;
+  width: 50px;
+  vertical-align: top;
+
+}
+.video-info{
+  display: inline-block;
+  width: 200px;
+}
+.profile-pic{
+  width: 100%;
+
+  
 }
