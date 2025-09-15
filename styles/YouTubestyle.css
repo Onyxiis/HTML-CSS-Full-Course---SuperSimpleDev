@@ -5,9 +5,7 @@ p{
 }
 
 .thumbnail{
-  width: 300px;
-  display: block;
-
+  width: 100%;
 }
 .Searchbox{
  display: block;
@@ -22,10 +20,7 @@ color: gray;
 font-size: 12px;
 }
 .videocard{
-  display: inline-block;
-  width: 300px;
-  vertical-align: top;
-  margin-right: 15px;
+
   margin-bottom: 20px;
 }
 .video-title{
@@ -54,4 +49,11 @@ font-size: 12px;
 }
 .thumbnail-row{
   margin-bottom: 12px;
+}
+.video-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+
 }
