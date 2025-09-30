@@ -62,11 +62,7 @@
   border: none; 
   background-color: rgb(245, 245, 245);
 }
-.right-section{
-  background-color: lightblue;
-  width: 220px;
 
-}
 .hamburger-menu{
   height: 24px;
   margin-left: 24px;
@@ -75,4 +71,25 @@
 
 .youtube-logo{
   height: 20px;
+}
+.right-section{
+  margin-right: 20px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.upload-icon{
+  height: 24px;
+}
+.notifications{
+  height: 24px;
+}
+.youtube-apps{
+  height: 24px;
+}
+.current-user{
+  height: 32px;
+  border-radius: 16px;
 }
