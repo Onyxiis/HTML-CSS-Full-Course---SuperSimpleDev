@@ -26,27 +26,61 @@ font-size: 12px;
   font-size: 14px;
   font-weight: bold;
   line-height: 20px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 .video-info-grid{
   display: grid;
   grid-template-columns: 50px 1fr;
 }
 .creator-icon{
-  width: 50px;
-  vertical-align: top;
+    position: relative;
+  display: inline-block;
+}
+.creator-icon:hover{
+  cursor: pointer;
+}
+.creator-tip{
+  background-color: white;
+  width: 200px;
+  padding: 4px;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  position: absolute;
+  top: 55px;
+  z-index: 300;
+  opacity: 0;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+.creator-icon:hover .creator-tip{
+  opacity: 1;
 
+}
+.creator{
+  font-family: Roboto,Arial;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+}
+.subs{
+  font-family: Roboto,Arial;
+  font-size: 13px;
+  color: gray;
+  
 }
 .video-info{
   width: 200px;
 }
 .profile-pic{
-  width: 40px;
+  width: 36px;
   border-radius: 50px;
   
 }
 .thumbnail-row{
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   position: relative;
 }
 .duration{
