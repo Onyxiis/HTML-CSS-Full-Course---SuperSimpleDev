@@ -1,0 +1,38 @@
+body.dark{
+  background-color: #0f0f0f;
+  color: white;
+
+}
+body.dark .header{
+  background-color: #0f0f0f;
+
+}
+body.dark .search-bar,
+body.dark .search-button,
+body.dark .voice-search-button
+{
+  background-color: #0f0f0f;
+  border-color: #0f0f0f;
+}
+body.dark input:checked + .slider{
+  background-color: #f0f0f0;
+}
+body.dark .slider::before{
+  background-color: #111;
+}
+body.dark .sidebar {
+  background-color: #0f0f0f;
+ 
+}
+body.dark .sidebar-icons div{
+  color: white;
+}
+body.dark .sidebar-icons img,
+body.dark .hamburger-menu,
+body.dark .search-icon,
+body.dark .upload-icon,
+body.dark .youtube-apps,
+body.dark .notifications,
+body.dark .voice-search-icon {
+  filter: invert(1) brightness(1.2);
+}
