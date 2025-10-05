@@ -35,7 +35,8 @@
   border-width: 1px;
   border-style: solid;
   border-color: rgb(192, 192,192);
-  border-radius: 2px;
+  border-bottom-left-radius: 60px;
+  border-top-left-radius: 60px;
   box-shadow: inset 1px 2px 3px rgba (0,0,0,0,0.05);
   width: 0;
 }
@@ -64,6 +65,8 @@
   border-color: rgb(192, 192,192);
   margin-left: -1px;
   margin-right: 10px;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
 }
 .search-button:hover,
 .voice-search-button:hover,
@@ -135,13 +138,60 @@
 }
 .right-section{
   margin-right: 20px;
-  width: 180px;
+  width: 240px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-shrink: 0;
-}
 
+}
+.theme-toggle{
+  position: relative;
+  width: 50px;
+  height: 26px;
+}
+.theme-toggle input{
+  opacity: 0;
+  width: 0;
+  height: 0;
+
+}
+.slider{
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 34px;
+  border-style: solid;
+  border-width: 2px;
+}
+.slider::before{
+  position: absolute;
+  content: "☀️";
+  height: 20px;
+  width: 20px;
+  left: 3px;
+  bottom: 0px;
+  background-color: white;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 50%;
+  line-height: 20px;
+  transition: 0.4s;
+}
+input:checked + .slider {
+  background-color: #333;
+
+}
+input:checked + .slider::before{
+  transform: translateX(20px);
+  content: "🌙";
+  background-color: #333;
+}
 .upload-icon{
   height: 24px;
 }
